@@ -1,6 +1,6 @@
 {
   "name": "parcel-angular-example",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Angular example for parcel",
   "main": "index.js",
   "scripts": {
