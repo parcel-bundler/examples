@@ -18,7 +18,7 @@
     "url": "git://github.com/parcel-bundler/examples.git"
   },
   "author": "Jasper De Moor",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git",
     "parcel-plugin-typescript": "^0.2.0-angular.0",
