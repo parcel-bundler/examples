@@ -1,7 +1,7 @@
 {
-  "name": "parcel-react-example",
+  "name": "parcel-preact-example",
   "version": "1.0.0",
-  "description": "Parcel Bundler Example with React",
+  "description": "Parcel Bundler Example with Preact",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
