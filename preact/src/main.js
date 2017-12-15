@@ -1,10 +1,10 @@
 import { h, render } from 'preact';
 
-let elem;
+const mountNode = document.getElementById('app');
 
 const init = () => {
   let App = require('./App').default;
-  elem = render(<App />, document.getElementById('app'), elem);
+  render(<App />, mountNode, mountNode.lastChild);
 };
 
 init();
