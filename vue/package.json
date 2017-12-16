@@ -1,0 +1,17 @@
+{
+  "name": "parcel-vue-example",
+  "version": "1.0.0",
+  "description": "Parcel Bundler Example with Vue",
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.2.0"
+  }
+}
