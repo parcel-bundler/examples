@@ -34,8 +34,8 @@ $ npm install
 $ npm run start
 ```
 
-Go to http://localhost:1234 (or port 61842) and if you saw this screen:
+Go to http://localhost:1234 (or other port) and if you saw this screen:
 
-<img width="100%" alt="screen shot" src="https://user-images.githubusercontent.com/11155743/34080801-a6ffecbe-e354-11e7-8b80-971911764f91.png">
+![screen shot](https://user-images.githubusercontent.com/11155743/34081053-9d756d50-e358-11e7-9cf7-3670c235cade.png)
 
 ...everything is okay. Let's code!
