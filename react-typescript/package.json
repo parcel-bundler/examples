@@ -1,7 +1,7 @@
 {
-  "name": "parcel-react-example",
+  "name": "parcel-react-typescript-example",
   "version": "1.0.0",
-  "description": "Parcel Bundler Example with React",
+  "description": "Parcel Bundler Example with React and TypeScript",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
@@ -10,14 +10,12 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@types/react": "^16.0.31",
     "@types/react-dom": "^16.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "typescript": "^2.6.2"
-  },
-  "devDependencies": {
+    "typescript": "^2.6.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.2.0"
