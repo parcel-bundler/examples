@@ -4,8 +4,8 @@
   "description": "Parcel Bundler Example with Vue.js",
   "main": "src/main.js",
   "scripts": {
-    "start": "NODE_ENV=development parcel index.html --open",
-    "build": "NODE_ENV=production parcel build index.html --public-url ./",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
