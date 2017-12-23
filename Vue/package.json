@@ -1,0 +1,22 @@
+{
+  "name": "parcel-vuejs-example",
+  "description": "Vue.js example using parcel bundler",
+  "version": "1.0.0",
+  "author": "Vinayak Kulkarni",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development parcel index.html",
+    "prod": "npm run build",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+  },
+  "dependencies": {
+    "vue": "^2.5.10"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-vue": "^2.0.0",
+    "parcel-bundler": "^1.2.0"
+  }
+}
