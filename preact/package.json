@@ -1,0 +1,22 @@
+{
+  "name": "parcel-preact-example",
+  "version": "1.0.0",
+  "description": "Parcel Bundler Example with Preact",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.2.0"
+  },
+  "dependencies": {
+    "preact": "^8.2.7",
+    "preact-compat": "^3.17.0"
+  }
+}
