@@ -1,0 +1,40 @@
+{
+  "name": "parcel-angular-example",
+  "version": "1.0.0",
+  "description": "Angular example for parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "parcel",
+    "angular",
+    "boilerplate",
+    "example"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parcel-bundler/examples.git"
+  },
+  "author": "Jasper De Moor",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git",
+    "parcel-plugin-typescript": "0.2.0-angular.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@angular/common": "^5.1.0",
+    "@angular/compiler": "^5.1.0",
+    "@angular/core": "^5.1.0",
+    "@angular/forms": "^5.1.0",
+    "@angular/platform-browser": "^5.1.0",
+    "@angular/platform-browser-dynamic": "^5.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-beta.7",
+    "core-js": "^2.5.2",
+    "rxjs": "^5.5.5",
+    "systemjs": "^0.20.19",
+    "zone.js": "^0.8.18"
+  }
+}
