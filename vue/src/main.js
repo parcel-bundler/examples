@@ -1,5 +1,5 @@
 import Vue from 'vue/dist/vue'
-import './index.css';
+import './main.css';
 
 new Vue({
   el: '#app',
@@ -10,6 +10,4 @@ new Vue({
   `
 });
 
-if (module.hot) {
-  module.hot.accept();
-}
+module.hot && module.hot.accept();

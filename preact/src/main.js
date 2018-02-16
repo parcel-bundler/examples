@@ -1,17 +1,5 @@
 import { h, render } from 'preact';
+import App from './App';
 
 const mountNode = document.getElementById('app');
-
-const init = () => {
-  let App = require('./App').default;
-  render(<App />, mountNode, mountNode.lastChild);
-};
-
-init();
-
-if (module.hot) {
-  require('preact/devtools');
-  module.hot.accept(() => {
-    init();
-  });
-}
+render(<App />, mountNode, mountNode.lastChild);

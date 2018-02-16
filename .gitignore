@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock*
 
 # Runtime data
 pids
@@ -59,4 +60,4 @@ typings/
 
 # Parcel related files
 dist/
-.cache
+.cache/
