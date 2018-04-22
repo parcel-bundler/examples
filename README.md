@@ -11,7 +11,7 @@ yarn start
 ```
 
 ## [Vue.js](https://vuejs.org)
-- [Simple example](vue)
+- [Simple example](Vue)
 
 ## [React](https://reactjs.org)
 - [Simple example](react)
