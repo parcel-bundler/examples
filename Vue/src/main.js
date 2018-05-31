@@ -1,13 +1,7 @@
-import Vue from 'vue/dist/vue'
-import './main.css';
+import Vue from 'vue'
+import App from './App.vue'
 
 new Vue({
   el: '#app',
-  template: `
-    <div id="app">
-      <h1>Hello World 📦 🚀</h1>
-    </div>
-  `
+  render: h => h(App)
 });
-
-module.hot && module.hot.accept();
