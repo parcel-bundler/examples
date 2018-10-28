@@ -1,7 +1,8 @@
 {
   "name": "parcel-reason-react-example",
+  "description": "ReasonReact & Parcel example",
   "version": "1.0.0",
-  "main": "src/Index.html",
+  "main": "src/Main.re",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/Index.html --open",
