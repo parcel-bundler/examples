@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "src/App.vue",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "vue": "^2.5.17",
