@@ -1,16 +1,18 @@
 {
   "name": "parcel-preact-example",
-  "version": "1.0.0",
   "description": "Simple Preact example",
+  "version": "1.0.0",
+  "main": "src/App.jsx",
+  "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "preact": "^8.2.7",
-    "preact-compat": "^3.17.0"
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4"
   },
   "devDependencies": {
-    "babel-preset-preact": "^1.1.0",
-    "parcel-bundler": "^1.2.0"
+    "parcel-bundler": "^1.10.3"
   }
 }
