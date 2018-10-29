@@ -1,0 +1,21 @@
+{
+  "name": "parcel-reason-react-example",
+  "description": "ReasonReact & Parcel example",
+  "version": "1.0.0",
+  "main": "src/Main.re",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/Index.html --open",
+    "build": "parcel build src/Index.html"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "reason-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.6",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.10.3"
+  }
+}
