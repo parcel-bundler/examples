@@ -22,6 +22,7 @@ yarn start
 ### [React](https://reactjs.org)
 
 - [Simple example](react)
+- [Reason React](reason-react)
 - [create-react-app-parcel](https://github.com/sw-yx/create-react-app-parcel)
 
 ### [Preact](https://preactjs.com/)
