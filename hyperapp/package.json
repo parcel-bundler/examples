@@ -1,16 +1,17 @@
 {
   "name": "parcel-hyperapp-example",
-  "version": "1.0.0",
   "description": "Simple Hyperapp example",
+  "version": "1.0.0",
+  "main": "src/App.js",
+  "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "hyperapp": "^1.0.1"
+    "hyperapp": "^1.2.9"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-hyperapp": "^2.3.0",
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.10.3"
   }
 }
