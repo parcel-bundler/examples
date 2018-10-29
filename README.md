@@ -25,7 +25,7 @@ yarn start
 
 ### [React](https://reactjs.org)
 
-- [Simple example](react)
+- [JavaScript](react)
 - [TypeScript & React](typescript-react)
 - [Reason React](reason-react)
 - [create-react-app-parcel](https://github.com/sw-yx/create-react-app-parcel)
