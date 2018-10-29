@@ -13,7 +13,7 @@ yarn start
 
 ### [Vue.js](https://vuejs.org)
 
-- [Simple example](Vue)
+- [Simple example](vue)
 
 ### [React](https://reactjs.org)
 
