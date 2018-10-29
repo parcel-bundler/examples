@@ -22,7 +22,7 @@ yarn start
 
 ### [Preact](https://preactjs.com/)
 
-- [Simple example](preact)
+- [JavaScript](preact)
 
 ### [HyperApp](https://hyperapp.js.org/)
 
