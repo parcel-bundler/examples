@@ -26,4 +26,4 @@ yarn start
 
 ### [HyperApp](https://hyperapp.js.org/)
 
-- [Simple example](hyperapp)
+- [JavaScript](hyperapp)
