@@ -1,0 +1,16 @@
+{
+  "name": "parceljs-node-example",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.js --target node",
+    "build": "parcel build src/index.js --target node"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
