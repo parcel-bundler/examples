@@ -11,6 +11,10 @@ yarn start
 
 ## Examples
 
+### [Flow](https://flow.org)
+
+- [Flow static type checker](flow)
+
 ### [Node.js](https://nodejs.org/)
 
 - [Node with version target](node)
