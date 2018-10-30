@@ -1,6 +1,6 @@
 {
-  "name": "parcel-flow",
-  "description": "Parcel & Flow simple example",
+  "name": "parcel-flow-absolute-module-resolution",
+  "description": "Parcel Absolute Module Resolution with Flow",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
