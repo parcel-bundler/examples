@@ -11,9 +11,10 @@ yarn start
 
 ## Examples
 
-### [Flow](https://flow.org)
+### [Flow](https://flow.org) - static type checker
 
-- [Flow static type checker](flow)
+- [Flow simple](flow)
+- [Flow with Parcel Absolute Path Module Resolution](flow-with-absolute-module-resolution)
 
 ### [Node.js](https://nodejs.org/)
 
@@ -26,8 +27,9 @@ yarn start
 ### [React](https://reactjs.org)
 
 - [JavaScript](react)
-- [TypeScript & React](typescript-react)
 - [Reason React](reason-react)
+- [TypeScript & React](typescript-react)
+- [TypeScript & React with Parcel Tilde Path Module Resolution](typescript-react-with-tilde-module-resolution)
 - [create-react-app-parcel](https://github.com/sw-yx/create-react-app-parcel)
 
 ### [Preact](https://preactjs.com/)
