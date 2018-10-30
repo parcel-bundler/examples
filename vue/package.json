@@ -2,7 +2,7 @@
   "name": "parcel-vuejs-example",
   "description": "Simple Vue.js example",
   "version": "1.0.0",
-  "main": "src/App.vue",
+  "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html"
