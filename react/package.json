@@ -2,7 +2,7 @@
   "name": "parcel-react-example",
   "description": "Simple React example",
   "version": "1.0.0",
-  "main": "src/App.jsx",
+  "main": "src/index.html",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html --open",
