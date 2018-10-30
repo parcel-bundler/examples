@@ -2,7 +2,7 @@
   "name": "parcel-flow-absolute-module-resolution",
   "description": "Parcel Absolute Module Resolution with Flow",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.html",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html --open",
