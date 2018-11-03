@@ -1,0 +1,26 @@
+{
+  "name": "parcel-angular-example",
+  "description": "Simple Angular example",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@angular/common": "^7.0.2",
+    "@angular/compiler": "^7.0.2",
+    "@angular/core": "^7.0.1",
+    "@angular/platform-browser": "^7.0.1",
+    "@angular/platform-browser-dynamic": "^7.0.1",
+    "core-js": "^2.5.7",
+    "rxjs": "^6.3.3",
+    "systemjs": "^2.1.1",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.1.6"
+  }
+}
