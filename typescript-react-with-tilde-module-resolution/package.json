@@ -1,6 +1,6 @@
 {
-  "name": "typescript-react",
-  "description": "Parcel TypeScript simple example",
+  "name": "typescript-react-tilde-resolution",
+  "description": "Parcel TypeScript with Tilde Module Resolution",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
@@ -18,6 +18,6 @@
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
     "parcel-bundler": "^1.10.3",
-    "typescript": "^3.1.4"
+    "typescript": "^3.1.3"
   }
 }

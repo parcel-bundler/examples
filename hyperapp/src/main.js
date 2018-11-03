@@ -1,5 +1,5 @@
 import { app } from 'hyperapp'
-import view from '/App'
+import view from './App'
 
 const state = {
   count: 0

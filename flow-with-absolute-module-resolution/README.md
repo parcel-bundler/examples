@@ -1,8 +1,12 @@
-# Parcel with Flow
+# Parcel Absolute Module Resolution with Flow
 
 Parcel supports using Flow types out of the box.
 
 In this example we use the `// @flow` pragma at the top of each JS file to have it's types checked.
+
+We also demonstrate the use of [Parcel Absolute Module Resolution](https://parceljs.org/module_resolution.html#flow-with-absolute-or-tilde-resolution) - see the imports in `index.js` as well as `index.html`. Imports are resolved from the **project root**, which is defined as the Parcel entrypoint, which in this case is `src/index.html`, so every `/` import is resolved from the `src/` folder.
+
+For Flow to understand where `/index.js` is actually imported from we need to account for this difference. `module.name_mapper` is a `.flowconfig` option which remaps the imports for Flow. In this instance, `/index.js` must become `src/index.js`.
 
 To run Flow, either install it as an editor indtegration, or run either `yarn run flow` or `npm run flow`.
 
@@ -27,7 +31,8 @@ Cannot assign banana.color to bananaColor because string [1] is incompatible wit
 
 ## Further Reading:
 
+- [Parcel Absolute Module Resolution](https://parceljs.org/module_resolution.html)
+- [Flow with Parcel Absolute or Tilde Module Resolution](https://parceljs.org/module_resolution.html#flow-with-absolute-or-tilde-resolution)
 - [Flow](https://flow.org/)
+- [Flow `module.name_mapper`](https://flow.org/en/docs/config/options/#toc-module-name-mapper-regex-string)
 - [Flow Editor Setup](https://flow.org/en/docs/editors/)
-
-For an example supporting Parcel's Absolute Module Resolution, see [Parcel Absolute Module Resolution with Flow](https://github.com/parcel-bundler/examples/tree/master/flow-with-absolute-module-resolution).

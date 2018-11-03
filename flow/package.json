@@ -1,10 +1,11 @@
 {
-  "name": "parcel-flow-example",
+  "name": "parcel-flow",
+  "description": "Parcel & Flow simple example",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.html",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
