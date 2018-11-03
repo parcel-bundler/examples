@@ -22,7 +22,7 @@ yarn start
 
 ### [Vue.js](https://vuejs.org)
 
-- [Simple example](vue)
+- [JavaScript](vue)
 
 ### [React](https://reactjs.org)
 
@@ -35,6 +35,10 @@ yarn start
 ### [Preact](https://preactjs.com/)
 
 - [JavaScript](preact)
+
+### [Angular](https://angular.io/)
+
+- [Simple TypeScript example](angular)
 
 ### [HyperApp](https://hyperapp.js.org/)
 
