@@ -28,6 +28,7 @@ yarn start
 
 - [JavaScript](react)
 - [Reason React](reason-react)
+- [Flow & React](flow-react)
 - [TypeScript & React](typescript-react)
 - [TypeScript & React with Parcel Tilde Path Module Resolution](typescript-react-with-tilde-module-resolution)
 - [create-react-app-parcel](https://github.com/sw-yx/create-react-app-parcel)
