@@ -2,7 +2,7 @@
 
 Parcel supports using Flow types out of the box.
 
-In this example we use the `// @flow` pragma at the top of each JS file to have it's types checked.
+In this example we use the `.flowconfig` file to instruct Parcel to use Flow and the `// @flow` pragma at the top of each JS file to specify those files to be type-checked.
 
 To run Flow, either install it as an editor indtegration, or run either `yarn run flow` or `npm run flow`.
 
