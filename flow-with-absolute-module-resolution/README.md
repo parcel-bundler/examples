@@ -2,7 +2,7 @@
 
 Parcel supports using Flow types out of the box.
 
-In this example we use the `// @flow` pragma at the top of each JS file to have it's types checked.
+In this example we use the `.flowconfig` file to instruct Parcel to use Flow and the `// @flow` pragma at the top of each JS file to specify those files to be type-checked.
 
 We also demonstrate the use of [Parcel Absolute Module Resolution](https://parceljs.org/module_resolution.html#flow-with-absolute-or-tilde-resolution) - see the imports in `index.js` as well as `index.html`. Imports are resolved from the **project root**, which is defined as the Parcel entrypoint, which in this case is `src/index.html`, so every `/` import is resolved from the `src/` folder.
 
