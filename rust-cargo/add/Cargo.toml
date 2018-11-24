@@ -1,0 +1,9 @@
+[package]
+name = "add"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+
+[lib]
+crate-type = ["cdylib"]
