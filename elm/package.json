@@ -1,0 +1,16 @@
+{
+  "name": "elm-example",
+  "version": "1.0.0",
+  "description": "A Basic Elm Webpage using Parcel Bundler",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "elm-hot": "^1.1.2",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.3"
+  }
+}

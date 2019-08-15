@@ -44,3 +44,7 @@ yarn start
 ### [HyperApp](https://hyperapp.js.org/)
 
 - [Simple JS example](hyperapp)
+
+### [Elm](https://elm-lang.org/)
+
+- [Simple Elm example](elm)
