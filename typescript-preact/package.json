@@ -1,0 +1,19 @@
+{
+  "name": "typescript-preact",
+  "description": "Parcel TypeScript Preact Example",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w & parcel src/index.html --open",
+    "build": "tsc && parcel build src/index.html"
+  },
+  "dependencies": {
+    "preact": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/parcel-env": "0.0.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}
