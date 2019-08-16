@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "es6",
+    "lib": ["dom", "es6"],
+    "moduleResolution": "node",
+
+    "jsx": "react",
+    "jsxFactory": "h",
+
+    "strict": true,
+    "noEmit": true
+  }
+}

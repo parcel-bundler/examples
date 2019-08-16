@@ -36,6 +36,7 @@ yarn start
 ### [Preact](https://preactjs.com/)
 
 - [JavaScript](preact)
+- [TypeScript](typescript-preact)
 
 ### [Angular](https://angular.io/)
 
