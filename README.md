@@ -37,6 +37,7 @@ yarn start
 
 - [JavaScript](preact)
 - [TypeScript](typescript-preact)
+- [A minimal Preact boilerplate with Parcel as bundler](https://github.com/SafdarJamal/preact-boilerplate)
 
 ### [Angular](https://angular.io/)
 
