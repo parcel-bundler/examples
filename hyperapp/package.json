@@ -1,7 +1,7 @@
 {
   "name": "parcel-hyperapp-example",
   "description": "Simple Hyperapp example",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "src/App.js",
   "license": "MIT",
   "scripts": {
@@ -9,9 +9,9 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "hyperapp": "^1.2.9"
+    "hyperapp": "^2.0.4"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.12.4"
   }
 }

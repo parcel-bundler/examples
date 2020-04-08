@@ -1,10 +1,22 @@
-import { h } from 'hyperapp';
+import { h, app } from 'hyperapp';
 import './App.css';
 
-export default (state, actions) => (
+
+const initialState = {
+  count: 0
+}
+
+
+const Up = state => ({ count: state.count + 1 });
+const Down = state => ({ count: state.count - 1 });
+
+const view = state => (
   <main>
     <h1>{state.count}</h1>
-    <button onclick={actions.down} disabled={state.count <= 0}>ー</button>
-    <button onclick={actions.up}>＋</button>
+    <button onclick={Down} disabled={state.count <= 0}>＋</button>
+    <button onclick={Up}>ー</button>
   </main>
 );
+
+app({init: initialState, view: view, node: document.body});
+
