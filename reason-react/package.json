@@ -6,16 +6,19 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/Index.html --open",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
     "build": "parcel build src/Index.html"
   },
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "reason-react": "^0.5.3"
   },
   "devDependencies": {
-    "bs-platform": "^4.0.6",
+    "bs-platform": "^4.0.18",
     "bsb-js": "^1.1.7",
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.11.0"
   }
 }
+
